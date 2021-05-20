@@ -1,3 +1,4 @@
+
 // query selector variables go here 👇
 var posterImage = document.querySelector('.poster-img')
 var posterTitle = document.querySelector('.poster-title')
@@ -112,6 +113,7 @@ randoBttn.addEventListener("click",getRandomImage)
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
+
 
 // var popcorn = getRandomIndex(images);
 // posterImage.src = images[popcorn];
